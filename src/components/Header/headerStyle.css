@@ -1,0 +1,40 @@
+.header-container {
+  background: #19242F;
+  /* Bottom Shadow */
+  box-shadow: 0px 14px 18px rgba(0, 0, 0, 0.15);
+}
+
+header {
+  background-color: #19242f;
+  padding: 10px 0;
+}
+.logo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.head-btn-get-app .btn {
+  border-radius: 25px;
+  color: #ffffff;
+  background: rgba(0, 174, 239, 0.15);
+  border: 2px solid #00AEEF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  padding: 9px 26px;
+}
+
+.media_menu{
+  padding-right: 80px;
+  padding-left: 80px;
+}
+@media only screen and (max-width: 600px){
+.media_menu{
+padding-left:10px;
+padding-right:10px;
+}
+}
